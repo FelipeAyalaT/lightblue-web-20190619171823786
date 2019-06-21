@@ -23,7 +23,7 @@ function setGetCustomerOptions(req, res) {
     protocol: "http",
     host: _apis.customer.host,
     api: _apis.customer.base_path,
-    operation: "customer/search?username=Felipe"
+    operation: "customer/search?username=foo"
   });
 
   var options = {
